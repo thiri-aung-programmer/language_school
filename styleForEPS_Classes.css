@@ -1,0 +1,311 @@
+.classes{
+    background-color: aliceblue;
+    width:100%;
+  
+}
+.headerForclasses{
+    color:darkgreen;
+    font-weight:bold;
+    margin:auto;
+}
+
+.titleDiv{
+    display:flex;
+    width:55%;
+
+}
+.titleDiv .bi{
+    margin:auto;
+    font-size:3rem;
+    color:darkgreen;
+    font-weight:bold;
+}
+.linearbg1{
+    border: 2px solid groove;
+    background-image: radial-gradient(springgreen,red,gold);
+}
+.linear1{
+    border: 2px solid groove;
+    background-image: radial-gradient(blue,rgb(216, 101, 101),rgb(255, 254, 254));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+       -webkit-text-stroke-color: rgb(2, 2, 5);
+}
+.hr_1{
+    width: 51.5%;
+    margin-left:1.8%;
+    margin-top:1%;
+    margin-bottom:1%;
+    height:1rem;
+    border:none;
+    border-radius:500px;
+    /*background-color: darkblue;*/
+    background-image:url('img/ani2.gif');
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+    -ms-border-radius:500px;
+    -o-border-radius:500px;
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+}
+.leftTorightDiv{
+    width:90%;
+    margin-left:5%; 
+    display:flex;
+    margin-bottom: 20px;
+
+}
+.leftPara{
+    padding:0.7rem;
+    display:inline-block;
+    width:75%;    
+    text-align:justify;
+    font-size:1.2rem;
+    line-height: 2.7rem;
+    color:rgb(4, 81, 189);
+    font-weight: bolder;
+}
+.rightPhoto{
+  width:24%;
+  margin-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.leftPara1{
+    padding:0.7rem;
+    display:inline-block;
+    width:72%;    
+    text-align:justify;
+    font-size:1.2rem;
+    line-height: 2.7rem;
+    color:rgb(4, 81, 189);
+    font-weight: bolder;
+}
+.rightPhoto1{
+  width:28%;
+  height:310px;
+  margin-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.rightPhoto2{
+    width:28%;
+    height:310px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+   
+  }
+.darkgreen{
+    color:darkgreen;
+}
+.subtitlegp{
+    display: flex;
+    text-align: center;
+    margin:10px 0;
+}
+.subtitle{
+    color:darkgreen;
+    font-weight: bold;
+    margin:5px;
+}
+
+/* presentation အစ */
+.presentation{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ margin:20px auto;
+}
+.no{   
+    padding:1rem;
+    
+    border-radius: 50%;
+    color:rgb(246, 246, 247);
+    font-weight: bold;
+    font-size: 2rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;
+    background-color: rgb(74, 7, 93);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    
+}
+.no1{
+    left:10%;
+    top:32%;
+    width:100px;
+    height:100px;
+
+}
+.no2{
+    left:10%;
+    top:38%;
+    width:100px;
+    height:100px;
+}
+
+.no3{
+    left:12%;
+    top:-7%;
+    width:50px;
+    height:50px;
+}
+.leftPr{
+    width: 45%;
+    /* margin-left: 20px;
+    padding-left: 20px; */
+    text-align: right;
+    justify-content: center;
+    font-family: 'Bauhaus 93';
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color:darkblue;
+    text-shadow: 2px 3px 1px drakred;
+    
+}
+.fullPr{
+    width: 80%;
+    /*padding-left: 20px; */
+    margin-left: 250px;
+    justify-content: center;
+    font-family: 'Bauhaus 93';
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:darkblue;
+    text-shadow: 2px 3px 1px drakred;
+    
+}
+.centerPr{
+    width: 25%;
+    text-align: center;
+    font-size: 3rem;
+}
+.centerPr img{
+    width: 60%;
+    /* margin-left: 15%;
+    margin-right: 20%; */
+}
+.rightPr{
+    width: 35%;
+}
+.rightPr img{
+    width:80%;
+    margin-left:0%;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border:2px solid rgb(73, 16, 25);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+/* presentation အဆုံး */
+/* rightolefttDiv အစ */
+.rightoleftDiv{
+    width:90%;     
+    display:inline-flex;
+    margin-left:5%;
+    margin-bottom: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+.rightPara{
+    padding:0.7rem;
+    display: inline-flex;
+    width:65%;    
+    text-align:justify;
+    font-size:1.1rem;
+    line-height: 3rem;
+    color:rgb(4, 81, 189);
+    font-weight: bolder;   
+}
+.leftPhoto{
+  width:35%;  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.markgp{
+    width:60%;
+    margin-left: 20%;
+}
+.marks{
+    text-align: center;
+    width: 33%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 20px;
+    padding:10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 2rem;
+    
+}
+.brown-bg{
+    background-color: rgb(243, 143, 126);
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+.blue-bg{
+    background-color: rgb(135, 207, 249);
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+.brown-bg:hover{
+    background-color:  rgb(232, 92, 67);
+    color:white;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.blue-bg:hover{
+    background-color: rgb(40, 157, 224);
+    color:white;
+    transform: scale(1.1);
+}
+.marks i{    
+    color:brown;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.warning{
+    color:rgb(71, 6, 175);
+    width:70%;
+    line-height: 2rem;
+    font-weight:bold;
+    text-align: center;
+    font-size: 1.1rem;
+    margin:20px 15%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: rgb(157, 232, 253);
+    padding:10px;
+    border-radius:10px;
+    border:10px groove brown;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+}
+/* rightolefttDiv အဆုံး */

@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+}
+.btnGp{
+    margin-top: 1rem;
+    margin-left: auto;
+
+}
+.btnGp .btnlectures,.btnGp .btndocuments{
+    padding:0.5rem 1rem;
+    /* border-left:1px solid gray;
+    border-right:1px solid gray;
+    border-top:1px solid gray; */
+    margin:0;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;   
+}
+.boxshadow{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.btnlectures{
+    border-bottom:1px solid transparent;
+}
+
+.btndocuments{
+    border-bottom:1px solid transparent;
+}
+.lectureGp,.lectureGp1,.lectureGp2{
+    width:100%;
+    padding:20px;
+    /* min-height:400px; */
+    background-color: antiquewhite;
+   
+}
+.lectureGp{
+    display: inline-block;
+}
+.lectureGp1,.lectureGp2 {
+    display:none;
+}
+.pignationNav{
+    display:inline-block;
+    width:100%;
+    margin:20px 0px;
+}
+#btnlectures{
+    background-color: antiquewhite;
+}
+/* }
+.lectureGp label,.lectureGp1 label,.lectureGp2 label{
+    width:100%;
+    margin-top: 0;   
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    background-color: rgb(167, 54, 1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+    border:2px groove rgb(247, 246, 249);
+} */
+.lecture-documentHeader{
+    font-size: 2rem;
+    font-weight: bold;
+    color:rgb(241, 120, 64);
+    border-top:4px solid black;
+    border-bottom: 4px solid black;
+    width:40%;
+    margin-left: 30%;
+    padding:15px 0px;
+    text-align:center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 1.5px rgb(7, 6, 5);   
+}
+.active{
+    background-color: darkblue;
+    color:white;
+}
+.documentGp{
+    width:100%;
+    padding:20px;
+    /* min-height:400px; */
+    background-color: antiquewhite;
+    /* display: inline-block; */
+    display: none;
+}
+.myform{
+    width:60%;
+    margin-left: 20%;
+}
+.col-md-4 label{
+    background-color: transparent;
+    color:rgb(88, 51, 5);
+    width: 100%;
+    font-size: 1.7rem;
+   
+}
+.col-6 label{
+    background-color: transparent;
+    color:rgb(88, 51, 5);
+    width: 100%;
+    font-size: 1rem;
+}
+.col-md-8 input{
+    width: 90%;
+    line-height: 2.5rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.errdiv{
+    width: 100%;
+    margin:0;
+    line-height: 0.7rem;
+}
+.errdiv .err{
+    font-size: 0.9rem;
+    color:red;
+    width: 60%;
+    margin-top:0;
+    margin-left: 20%;
+    
+}

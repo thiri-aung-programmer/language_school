@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4mon-topik Korean School</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleForLectures.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <!-- ခေါင်းစီးအတွက် အစ -->
+    <div class="bannerGroup">
+    <div class="banner bg-light p-2">
+        <div class="left mx-5">
+            <img src="img/myan.png" alt="" class="img-fluid">
+
+        </div>
+        <div class="center text-center mx-5">
+            <h2>한국어</h2>
+            <!-- <h1>MIN JU</h1> -->
+            <!-- <h3>ကိုရီးယားဘာသာစကားသင်တန်း</h3> -->
+            <h1>4MON TOPIK</h1>
+            <h3>ကိုရီးယားဘာသာစကားအွန်လိုင်းသင်တန်း</h3>
+        </div>
+        <div class="right mx-5">
+            <img src="img/korean.png" alt="" class="img-fluid">
+        </div>
+    </div>
+    
+    <div class="contact">
+        <!-- <a href="tel:+959402597032" class="contact" class="ph"><i class="bi bi-telephone-inbound-fill"></i>&nbsp;&nbsp;&nbsp;+959402597032</a><br>
+        <a href="sms:+959792597032" class="contact" class="sms"><i class="bi bi-chat-right-text-fill"></i>&nbsp;&nbsp;&nbsp;+959792597032 </a><br>
+        <a href="mailto:minjukoreanlanguageschool@gmail.com" class="contact" class="mail"><i class="bi bi-telephone-inbound-fill"></i>&nbsp;&nbsp;&nbsp;minjukoreanlanguageschool@gmail.com</a><br> -->
+
+        <a href="tel:+959402512345" class="contact" class="ph"><i class="bi bi-telephone-inbound-fill"></i>&nbsp;&nbsp;&nbsp;+959402512345</a><br>
+        <a href="sms:+959792512345" class="contact" class="sms"><i class="bi bi-chat-right-text-fill"></i>&nbsp;&nbsp;&nbsp;+959792512345 </a><br>
+        <a href="mailto:4mon-topikkoreanlanguageschool@gmail.com" class="contact" class="mail"><i class="bi bi-telephone-inbound-fill"></i>&nbsp;&nbsp;&nbsp;4mon-topikkoreanlanguageschool@gmail.com</a><br>
+        
+    </div>
+    <!-- linkgpအတွက် အစ -->    
+    <nav class="linkgp navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  AboutClasses
+                </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="epsclasses.html">EPS</a></li>
+                            <li><a class="dropdown-item" href="topikclasses.html">TOPIK</a></li>
+                            <li><a class="dropdown-item" href="kiipclasses.html">KIIP</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="otherclasses.html">Others</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Lectures
+                </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="epslectures.html">EPS</a></li>
+                            <li><a class="dropdown-item" href="topiklectures.html">TOPIK</a></li>
+                            <li><a class="dropdown-item" href="kiiplectures.html">KIIP</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="otherlectures.html">Others</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reviews.html">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">ContactUs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="enroll.html">Enroll Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="cart" id="cart"><i class="bi bi-cart-fill"></i><div class="countDiv"><span class="count" id="count">0</span></div></div>
+                    </li> 
+                </ul>
+                <form class="d-flex" role="search">
+                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                    <button class="btn btn-outline-primary button-67" type="submit">한국어</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- linkgpအတွက် အဆုံး -->
+    <!-- ခေါင်းစီးအတွက် အဆုံး -->
+</div>
+    <!-- နေရာအပိုယူတာ  အစ-->
+    <div class="block">
+
+    </div>
+    
+     <!--   kiip Lectures အတွက် အစ  -->
+
+    <div class="text-center">
+        <span class="request"><i class="bi bi-patch-exclamation me-2"></i>ကျေးဇူးပြုပြီး lecture videos နှင့် documents များကို ပြင်ပသို့ ဖြန့်ဝေခြင်းမပြုပါရန် မေတ္တာရပ်ခံပါတယ်။<i class="bi bi-patch-exclamation ms-2"></i></span>
+    </div>
+    <div class="btnGp" id="btnGp">
+        <button class="btnlectures boxshadow" id="btnlectures" onclick="showVideos();" >Video Lectures</button>
+        <button class="btndocuments" id="btndocuments" onclick="showDocuments();">Documents</button>
+    </div>
+    <!-- lectures(1-8)အစ -->
+    <div class="lectureGp text-center" id="lectureGp">
+        <h5 class="lecture-documentHeader">KIIP Lectures(1-8)</h5>
+        <div class="row my-2">
+             <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://youtu.be/f6gnHJKGX4U">
+                    <iframe src="https://www.youtube.com/embed/f6gnHJKGX4U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </a>
+                <label for="">Lecture 1</label>
+             </div>
+             <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/WQGBqUk_dMg">
+                    <iframe src="https://www.youtube.com/embed/WQGBqUk_dMg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </a>
+                <label for="">Lecture 2</label>
+             </div>
+             <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/LovR2hXNsJw">
+                    <iframe src="https://www.youtube.com/embed/LovR2hXNsJw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </a>
+                <label for="">Lecture 3</label>
+             </div>
+             <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/qJYo6LzFago">
+                    <iframe src="https://www.youtube.com/embed/qJYo6LzFago" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </a>
+                <label for="">Lecture 4</label>
+             </div>
+        </div>
+        <div class="row my-2">
+            <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/MvWXc3URLmk">
+                    <iframe src="https://www.youtube.com/embed/MvWXc3URLmk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </a>
+               <label for="">Lecture 5</label>
+            </div>
+            <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/3VqeLdoPhdk">
+                    <iframe src="https://www.youtube.com/embed/3VqeLdoPhdk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </a>
+               <label for="">Lecture 6</label>
+            </div>
+            <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/AyRIwrRAwt8">
+                    <iframe src="https://www.youtube.com/embed/AyRIwrRAwt8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </a>
+               <label for="">Lecture 7</label>
+            </div>
+            <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/C6WjuGGakhw">
+                    <iframe src="https://www.youtube.com/embed/C6WjuGGakhw"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </a>
+               <label for="">Lecture 8</label>
+            </div>
+       </div>
+    </div>
+       <!-- lectures(1-8)အဆုံး -->
+       <!-- lectures(9-16)အစ -->
+    <div class="lectureGp1 text-center" id="lectureGp1">
+        <h5 class="lecture-documentHeader">KIIP Lectures(9-16)</h5>
+        <div class="row my-2">
+             <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/7xB_JLqcl8w">
+                    <iframe src="https://www.youtube.com/embed/7xB_JLqcl8w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </a>
+                <label for="">Lecture 9</label>
+             </div>
+             <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/Tphe_qot0xU">
+                    <iframe src="https://www.youtube.com/embed/Tphe_qot0xU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </a>
+                <label for="">Lecture 10</label>
+             </div>
+             <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/1MBJGciFqBM">
+                    <iframe src="https://www.youtube.com/embed/1MBJGciFqBM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </a>
+                <label for="">Lecture 11</label>
+             </div>
+             <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/9XuCOohMMsk">
+                    <iframe src="https://www.youtube.com/embed/9XuCOohMMsk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </a>
+                <label for="">Lecture 12</label>
+             </div>
+        </div>
+        <div class="row my-2">
+            <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/a5vam7Kzc1c">
+                    <iframe src="https://www.youtube.com/embed/a5vam7Kzc1c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </a>
+               <label for="">Lecture 13</label>
+            </div>
+            <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/UEkSTU6YGjo">
+                    <iframe src="https://www.youtube.com/embed/UEkSTU6YGjo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </a>
+               <label for="">Lecture 14</label>
+            </div>
+            <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/rkzlAjxUzK8">
+                    <iframe src="https://www.youtube.com/embed/rkzlAjxUzK8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </a>
+               <label for="">Lecture 15</label>
+            </div>
+            <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/ppftAWblPE8">
+                    <iframe src="https://www.youtube.com/embed/ppftAWblPE8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </a>
+               <label for="">Lecture 16</label>
+            </div>
+       </div>
+       </div>
+       <!-- lectures(9-16)အဆုံး -->
+
+       <!-- lectures(17-22)အစ -->
+    <div class="lectureGp2 text-center" id="lectureGp2">
+        <h5 class="lecture-documentHeader">KIIP Lectures(17-22)</h5>
+        <div class="row my-2">
+             <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/CB_rME8qMeI">
+                    <iframe src="https://www.youtube.com/embed/CB_rME8qMeI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+                    </iframe>
+                </a>
+                <label for="">Lecture 17</label>
+             </div>
+             <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/Xg-NeSFvnmI">
+                    <iframe src="https://www.youtube.com/embed/Xg-NeSFvnmI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </a>
+                <label for="">Lecture 18</label>
+             </div>
+             <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/1qFlWD-_ZlQ">
+                    <iframe src="https://www.youtube.com/embed/1qFlWD-_ZlQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </a>
+                <label for="">Lecture 19</label>
+             </div>
+             <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/qzVBInVtpd0">
+                    <iframe src="https://www.youtube.com/embed/qzVBInVtpd0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </a>
+                <label for="">Lecture 20</label>
+             </div>
+        </div>
+        <div class="row my-2">
+            <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/qHLmT6_5E4s">
+                    <iframe src="https://www.youtube.com/embed/qHLmT6_5E4s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </a>
+               <label for="">Lecture 21</label>
+            </div>
+            <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/gcS4rBTJDBc">
+                    <iframe src="https://www.youtube.com/embed/gcS4rBTJDBc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </a>
+               <label for="">Lecture 22</label>
+            </div>
+            <!-- <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/V_z11Dfudg8">
+                    <iframe src="https://www.youtube.com/embed/V_z11Dfudg8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </a>
+               <label for="">Lecture 23</label>
+            </div>
+            <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="https://www.youtube.com/embed/_cYrU4GIPQc">
+                    <iframe src="https://www.youtube.com/embed/_cYrU4GIPQc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                </a>
+               <label for="">Lecture 24</label>
+            </div> -->
+       </div>
+    </div>
+    <!-- lectures(17-22)အဆုံး -->
+
+       <!-- pignation အစ -->
+       <nav aria-label="Page navigation example" class="pignationNav" id="pignationNav">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous" id="prev" onclick="pressingPrev();">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item active" id="p1" onclick="pressingP1();"><a class="page-link" href="#">1</a></li>
+          <li class="page-item" id="p2" onclick="pressingP2();"><a class="page-link" href="#">2</a></li>
+          <li class="page-item" id="p3" onclick="pressingP3();"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next" id="next" onclick="pressingNext();">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+       <!-- pignation အဆုံး -->
+
+    
+    <div class="documentGp text-center" id="documentGp">
+        <h5 class="lecture-documentHeader">KIIP Ebooks</h5>
+        <div class="row my-2">
+            <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+               <a href="1.pdf"><img src="img/b1.JPG" alt=""></a>
+               <!-- <label for="">Lecture 0</label> -->
+            </div>
+            <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="2.pdf"><img src="img/b2.JPG" alt=""></a>
+               <!-- <label for="">Lecture 1</label> -->
+            </div>
+            <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="3.pdf"><img src="img/b3.JPG" alt=""></a>
+               <!-- <label for="">Lecture 2</label> -->
+            </div>
+            <div class="col-md-3 col-6 offset-md-0 offset-1 text-center">
+                <a href="4.pdf"><img src="img/b4.JPG" alt=""></a>
+               <!-- <label for="">Lecture 3</label> -->
+            </div>
+       </div>
+    </div>
+    
+     <!-- kiip Lectures အတွက် အဆုံး  -->
+
+
+
+     <footer>
+        <div class="footer-top">
+        <div class="footer-left"> 
+            <h5>Contact Us</h5>
+            <hr class="half-hr">
+            <p class="footerP">
+            <a href="tel:+959259833893" class="f_contact"><i class="bi bi-telephone-fill"></i>&nbsp;&nbsp;&nbsp;+959123456789</a><br>
+            <a href="sms:+959793033893" class="f_contact"><i class="bi bi-chat-heart-fill"></i>&nbsp;&nbsp;&nbsp;+959791234567 </a><br>
+            <a href="mailto:welcometomynammar@gmail.com" class="f_contact"><i class="bi bi-envelope-at-fill"></i>&nbsp;&nbsp;&nbsp;4mon-topik@gmail.com</a><br>
+            <a href="https://www.youtube.com/@4MONTOPIK/about" class="f_contact"><i class="bi bi-youtube"></i>&nbsp;&nbsp;&nbsp;YouTube</a>
+            </p>
+
+        </div>
+        <div class="footer-center">
+            <h5>Legal</h5>
+            <hr class="half-hr">
+            <p class="footerP">
+            <a href="" class="f_contact">Terms of Services</a><br>
+            <a href="sms:+959793033893" class="f_contact">Privacy Policy</a><br>
+            <a href="mailto:welcometomynammar@gmail.com" class="f_contact">Report</a><br>
+            <form action="">
+                <div class="row">
+                    <div class="input-group">
+                        <input placeholder="Enter Email Address" type="email" class="form-control bg-primary-subtle">
+                        <label for="" class="input-group-text bg-primary"><i class="bi bi-telegram text-light"></i></label>
+                    </div>
+                </div>
+            </form>
+            
+            </p> 
+        </div>
+        <div class="footer-right">
+            <h5>About</h5>
+            <hr class="half-hr">
+            <p class="footerP">
+            <a href="" class="f_contact">Classes</a><br>
+            <a href="" class="f_contact">Lectures</a><br>
+            <a href="" class="f_contact">Reviews</a><br>
+            <a href="" class="f_contact">TeacherProfile</a><br>
+            <a href="" class="f_contact">Latest...</a><br>
+            <div class="polyGp">
+                <div class="poly1"><i class="fa-brands fa-facebook i1"></i></div>
+                <div class="poly2"><i class="fa-brands fa-twitter i2"></i></div>
+                <div class="poly1"><i class="fa-brands fa-instagram i1"></i></div>
+                <div class="poly2"><i class="fa-brands fa-youtube i2"></i></div>
+            </div>
+            </p>
+        </div>
+        </div>
+        <div class="footer-bottom text center">
+            <hr class="text-center">
+            &copy; copyright 2023 all right reserved 
+
+
+        </div>
+        </div>
+        <footer>
+            <div class="footer-top">
+            <div class="footer-left"> 
+                <h5>Contact Us</h5>
+                <hr class="half-hr">
+                <p class="footerP">
+                <a href="tel:+959259833893" class="f_contact"><i class="bi bi-telephone-fill"></i>&nbsp;&nbsp;&nbsp;+959123456789</a><br>
+                <a href="sms:+959793033893" class="f_contact"><i class="bi bi-chat-heart-fill"></i>&nbsp;&nbsp;&nbsp;+959791234567 </a><br>
+                <a href="mailto:welcometomynammar@gmail.com" class="f_contact"><i class="bi bi-envelope-at-fill"></i>&nbsp;&nbsp;&nbsp;4mon-topik@gmail.com</a><br>
+                <a href="https://www.youtube.com/@4MONTOPIK/about" class="f_contact"><i class="bi bi-youtube"></i>&nbsp;&nbsp;&nbsp;YouTube</a>
+                </p>
+    
+            </div>
+            <div class="footer-center">
+                <h5>Legal</h5>
+                <hr class="half-hr">
+                <p class="footerP">
+                <a href="" class="f_contact">Terms of Services</a><br>
+                <a href="sms:+959793033893" class="f_contact">Privacy Policy</a><br>
+                <a href="mailto:welcometomynammar@gmail.com" class="f_contact">Report</a><br>
+                <form action="">
+                    <div class="row">
+                        <div class="input-group">
+                            <input placeholder="Enter Email Address" type="email" class="form-control bg-primary-subtle">
+                            <label for="" class="input-group-text bg-primary"><i class="bi bi-telegram text-light"></i></label>
+                        </div>
+                    </div>
+                </form>
+                
+                </p> 
+            </div>
+            <div class="footer-right">
+                <h5>About</h5>
+                <hr class="half-hr">
+                <p class="footerP">
+                <a href="" class="f_contact">Classes</a><br>
+                <a href="" class="f_contact">Lectures</a><br>
+                <a href="" class="f_contact">Reviews</a><br>
+                <a href="" class="f_contact">TeacherProfile</a><br>
+                <a href="" class="f_contact">Latest...</a><br>
+                <div class="polyGp">
+                    <div class="poly1"><i class="fa-brands fa-facebook i1"></i></div>
+                    <div class="poly2"><i class="fa-brands fa-twitter i2"></i></div>
+                    <div class="poly1"><i class="fa-brands fa-instagram i1"></i></div>
+                    <div class="poly2"><i class="fa-brands fa-youtube i2"></i></div>
+                </div>
+                </p>
+            </div>
+            </div>
+            <div class="footer-bottom text center">
+                <hr class="text-center">
+                &copy; copyright 2023 all right reserved 
+    
+    
+            </div>
+            </div>
+         </footer>
+    </body>
+    
+    </html>

@@ -1,0 +1,521 @@
+.classes{
+    background-color: aliceblue;
+    width:100%;
+  
+}
+.headerForclasses{
+    color:darkgreen;
+    font-weight:bold;
+    margin:auto;
+}
+
+.titleDiv{
+    display:flex;
+    width:65%;
+
+}
+.titleDiv .bi{
+    margin:auto;
+    font-size:3rem;
+    color:darkgreen;
+    font-weight:bold;
+}
+.linearbg1{
+    border: 2px solid groove;
+    background-image: radial-gradient(springgreen,red,gold);
+}
+.linear1{
+    border: 2px solid groove;
+    background-image: radial-gradient(blue,rgb(216, 101, 101),rgb(255, 254, 254));
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+       -webkit-text-stroke-color: rgb(2, 2, 5);
+}
+.hr_1{
+    width: 53%;
+    margin-left:6.5%;
+    margin-top:1%;
+    margin-bottom:1%;
+    height:1rem;
+    border:none;
+    border-radius:500px;
+    /*background-color: darkblue;*/
+    background-image:url('img/ani2.gif');
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+    -ms-border-radius:500px;
+    -o-border-radius:500px;
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+}
+.leftTorightDiv{
+    width:90%;
+    margin-left:5%; 
+    display:flex;
+    margin-bottom: 20px;
+
+}
+.leftPara{
+    padding:0.7rem;
+    display:inline-block;
+    width:75%;    
+    text-align:justify;
+    font-size:1.2rem;
+    line-height: 2.7rem;
+    color:rgb(4, 81, 189);
+    font-weight: bolder;
+}
+.rightPhoto{
+  width:24%;
+  margin-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.leftPara1{
+    padding:0.7rem;
+    display:inline-block;
+    width:72%;    
+    text-align:justify;
+    font-size:1.2rem;
+    line-height: 2.7rem;
+    color:rgb(4, 81, 189);
+    font-weight: bolder;
+}
+.rightPhoto1{
+  width:28%;
+  height:310px;
+  margin-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.rightPhoto2{
+    width:28%;
+    height:310px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+   
+  }
+.darkgreen{
+    color:darkgreen;
+}
+.subtitlegp{
+    display: flex;
+    text-align: center;
+    margin:10px 0;
+}
+.subtitle{
+    color:rgb(78, 2, 46);
+    font-weight: bold;
+    margin:5px;
+}
+
+/* presentation အစ */
+.presentation{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ margin:20px auto;
+}
+.no{   
+    padding:1rem;
+    
+    border-radius: 50%;
+    color:rgb(246, 246, 247);
+    font-weight: bold;
+    font-size: 2rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;
+    background-color: rgb(74, 7, 93);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    
+}
+.no1{
+    left:10%;
+    top:32%;
+    width:100px;
+    height:100px;
+
+}
+.no2{
+    left:10%;
+    top:38%;
+    width:100px;
+    height:100px;
+}
+
+.no3{
+    left:12%;
+    top:-7%;
+    width:50px;
+    height:50px;
+}
+.leftPr{
+    width: 45%;
+    /* margin-left: 20px;
+    padding-left: 20px; */
+    text-align: right;
+    justify-content: center;
+    font-family: 'Bauhaus 93';
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color:darkblue;
+    text-shadow: 2px 3px 1px drakred;
+    
+}
+.fullPr{
+    width: 80%;
+    /*padding-left: 20px; */
+    margin-left: 250px;
+    justify-content: center;
+    font-family: 'Bauhaus 93';
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:darkblue;
+    text-shadow: 2px 3px 1px drakred;
+    
+}
+.centerPr{
+    width: 25%;
+    text-align: center;
+    font-size: 3rem;
+}
+.centerPr img{
+    width: 60%;
+    /* margin-left: 15%;
+    margin-right: 20%; */
+}
+.rightPr{
+    width: 35%;
+}
+.rightPr img{
+    width:80%;
+    margin-left:0%;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border:2px solid rgb(73, 16, 25);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+/* presentation အဆုံး */
+/* rightolefttDiv အစ */
+.rightoleftDiv{
+    width:90%;     
+    display:inline-flex;
+    margin-left:5%;
+    margin-bottom: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+.rightPara{
+    padding:0.7rem;
+    display: inline-flex;
+    width:65%;    
+    text-align:justify;
+    font-size:1.1rem;
+    line-height: 3rem;
+    color:rgb(4, 81, 189);
+    font-weight: bolder;   
+}
+.leftPhoto{
+  width:35%;  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.markgp{
+    width:60%;
+    margin-left: 20%;
+}
+.marks{
+    text-align: center;
+    width: 33%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 20px;
+    padding:10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 2rem;
+    
+}
+.brown-bg{
+    background-color: rgb(243, 143, 126);
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+.blue-bg{
+    background-color: rgb(135, 207, 249);
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+.brown-bg:hover{
+    background-color:  rgb(232, 92, 67);
+    color:white;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.blue-bg:hover{
+    background-color: rgb(40, 157, 224);
+    color:white;
+    transform: scale(1.1);
+}
+.marks i{    
+    color:brown;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.aInPara{
+    color: darkgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tip-gp{
+    width:90%;
+    margin-left: 5%;
+    padding: 0.5rem;
+    
+}
+.tip{
+    width: 100%;
+    display: flex;
+   align-items: center;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+    padding:1rem 0.8rem;
+    position:relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.tip1{
+    background-color: rgb(253, 234, 64);
+   color:rgb(7, 4, 4);
+   text-shadow: 1px 2px 3px rgb(20,20,214);
+}
+/* 
+.tip2{
+   background-color: whitesmoke;
+   color:rgb(7, 4, 4);
+   text-shadow: 1px 2px 3px rgb(20,20,214);
+} */
+
+.bullet{
+    position: absolute;
+   top:25%;    
+    width:40px;
+    height:40px;
+    /* margin-right: 10px; */
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;    
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-image: radial-gradient(rgb(242, 246, 2),white,yellow);
+    color:darkblue;
+    font-weight:bold;
+    font-size: 1.2rem;
+}
+.tipcontent{
+    margin-left: 5%;
+    font-size:1.1rem;
+   
+    font-weight: bold;
+}
+/* rightolefttDiv အဆုံး */
+/* ani အတွက် အစ */
+
+.warning{
+    color:rgb(4, 2, 7);
+    width:70%;
+    line-height: 2rem;
+    font-weight:bold;
+    text-align: center;
+    font-size: 1.5rem;
+    margin:20px 15%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: rgb(249, 249, 249);
+    padding:20px;
+    border-radius:15px;
+    border:3px groove rgba(26, 18, 18,0.5);
+    -webkit-border-radius:10px;
+    -moz-border-radius:15px;
+    -ms-border-radius:15px;
+    -o-border-radius:15px;
+    position: relative;
+    /*သူ့childကိုpositionabsoluteထားရလို့သူ့ကိုဒါလာထားရတာ*/overflow: hidden;
+    /*သူ့အပြင်ကကောင်ကိုဖျက်ချင်လို့လိုင်းပြေးတာလေးမှာအပြင်ထွက်နေတာကိုမပေါ်ချင်တာ*/-webkit-border-radius:20px;
+    -webkit-border-radius:15px;
+}
+
+.warning span:nth-child(1) {
+    /*အပေါ်ကပြေးတဲ့လိုင်းအတွက်*/position: absolute;
+    /*သူ့parentaမှာrelativeထားပေးရန်လို*/top: 0;
+    left: 0;
+    height: 7px;
+    width: 100%;
+    background: linear-gradient(90deg, transparent, gray,white);
+    animation: ani1 1s linear infinite;
+    -webkit-animation: ani1 1s linear infinite;
+}
+.warning span:nth-child(2) {
+    /*ညာဘက်ပြေးတဲ့လိုင်းအတွက်*/position: absolute;
+    /*သူ့parentaမှာrelativeထားပေးရန်လို*/top: 100%;
+    right: 0;
+    height: 100%;
+    width: 7px;
+    background: linear-gradient(180deg, transparent, gray,white);
+    animation: ani2 1s linear infinite;
+    animation-delay: 0.25s;
+    /*ပထမဟာနဲ့ဒါလေးပဲကွာ*/
+    -webkit-animation: ani2 1s linear infinite;
+}
+
+
+.warning span:nth-child(3) {
+    /*အောက်ကပြေးတဲ့လိုင်းအတွက်*/position: absolute;
+    /*သူ့parentaမှာrelativeထားပေးရန်လို*/bottom: 0;
+    right: -100%;
+    height: 7px;
+    width: 100%;
+    background: linear-gradient(270deg, transparent, gray,white);
+    animation: ani3 1s linear infinite;
+    animation-delay: 0.5s;
+    -webkit-animation: ani3 1s linear infinite;
+}
+
+
+.warning span:nth-child(4) {
+    /*ဘယ်ဘက်ပြေးတဲ့လိုင်းအတွက်*/position: absolute;
+    /*သူ့parentaမှာrelativeထားပေးရန်လို*/bottom: 100%;
+    left: 0;
+    height: 100%;
+    width: 7px;
+    background: linear-gradient(360deg, transparent, gray,white);
+    animation: ani4 1s linear infinite;
+    animation-delay: 0.75s;
+    /*ပထမဟာနဲ့ဒါလေးပဲကွာ*/
+    -webkit-animation: ani4 1s linear infinite;
+}
+
+@keyframes ani1 {
+    0% {
+        left: -100%;
+    }
+    50%,
+    100% {
+        left: 100%;/* ပထမဟာနဲ့ ဒါလေးပဲကွာ */
+    }
+}
+
+@keyframes ani2 {
+    0% {
+        top: -100%; 
+    }
+    50%,
+    100% {
+        top: 100%; /* ပထမဟာနဲ့ ဒါလေးပဲကွာ */
+    }
+}
+@keyframes ani3 {
+    0% {
+        right: -100%;
+    }
+    50%, 100% {
+        right: 100%; /* ပထမဟာနဲ့ ဒါလေးပဲကွာ */
+    }
+}
+
+@keyframes ani4 {
+    0% {
+        bottom: -100%;
+    }
+    50%,
+    100% {
+        bottom: 100%; /* ပထမဟာနဲ့ ဒါလေးပဲကွာ */
+    }
+}
+
+
+@keyframes ani5 {
+    0% {
+        left: 100%;
+    }
+    
+    50% {
+        left: -100%;/* ပထမဟာနဲ့ ဒါလေးပဲကွာ */
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes ani6 {
+    0% {
+        top: -100%; 
+    }
+   
+    50% {
+        top: 100%; /* ပထမဟာနဲ့ ဒါလေးပဲကွာ */
+    }
+    100% {
+        top: -100%; 
+    }
+}
+@keyframes ani7 {
+    0% {
+        right: 100%;
+    }
+    50% {
+        right: -100%; /* ပထမဟာနဲ့ ဒါလေးပဲကွာ */
+    }
+     100% {
+        right: 100%;
+    }
+}
+
+@keyframes ani8 {
+    0% {
+        bottom: -100%;
+    }
+    50% {
+        bottom: 100%; /* ပထမဟာနဲ့ ဒါလေးပဲကွာ */
+    }
+    100% {
+        bottom: -100%;
+    }
+}
+
+/* ani အတွက် အဆုံး */

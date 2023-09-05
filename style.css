@@ -1,0 +1,661 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url(); */
+    background-color: rgb(174, 215, 250);
+    width: 100%;
+    height: 100vh;
+    /* position:relative; */
+}
+
+.bannerGroup{
+    width:100%;
+    position:fixed;  
+    top:0;
+    z-index: 100;
+}
+.banner {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #cecef4;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* position:fixed;
+    top:0;
+    z-index: 100; */
+}
+
+.banner img {
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.7);
+}
+
+.left {
+    width: 10%;
+}
+
+.center {
+    width: 60%;
+    position: relative;
+}
+
+.right {
+    width: 10%;
+}
+
+.center h1 {
+    font-family: 'Times New Roman';
+    font-family: 'Gill Sans Nova Cond Ultra Bold';
+    font-size: 3rem;
+    color: #ff0e2f;
+    font-weight: 1000;
+    -webkit-text-stroke: 2px #ff0e2f;
+    -webkit-text-stroke: 3px #0b0808;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 2px 3px 4px rgb(252, 245, 157);
+    /* 
+    
+    color: transparent;
+    background-image: url(img/mergeflags.png);
+    background-image: linear-gradient(rgb(135, 253, 147) 38%, red 60%, white 15%); 
+    background-image: url(https://media.giphy.com/media/l4FGyGSeCm7pOhzKo/giphy.gif); 
+    background-position: center;
+    -webkit-background-clip: text; */
+}
+
+.center h2 {
+    font-family: 'Nanum Pen';
+    font-size: 5rem;
+    font-weight: bold;
+    position: absolute;
+    z-index: -10;
+    top: -12px;
+    left: 250px;
+}
+
+.center h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(24, 51, 95);
+    text-shadow: 4px 5px 4px white, 7px 5px 7px black;
+    z-index: 1;
+}
+
+.block {
+    width: 100%;
+    height: 220px;
+}
+.contact{
+    width: 100%;
+    display: flex;
+    height: 2.5rem;
+    background-color: #cecef4;
+    /* position:fixed;    
+    z-index: 100; */
+}
+.contact a{
+    width:auto;
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+    padding:0.5rem  0.7rem;
+    display: inline-block;
+}
+.contact a:hover{
+    color:rgb(44, 0, 62);
+}
+.linkgp {
+    /* float: right; */
+    padding-left: 540px;
+    display: flex;   
+    height: 60px;
+    /* text-align: end;      */
+     background-color: #F5F5FA;
+}
+
+.linkgp a {
+    text-decoration: none;
+    margin: 0px 5px;
+   
+}
+
+
+/* CSS */
+
+.button-67 {
+    align-items: center;
+    background: #f5f5fa;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: -10px -10px 30px 0 #fff, 10px 10px 30px 0 #1d0dca17;
+    box-sizing: border-box;
+    color: #8a7d80;
+    cursor: pointer;
+    display: flex;
+    font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    font-size: 1rem;
+    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    justify-content: center;
+    line-height: 1.5rem;
+    padding: 15px;
+    position: relative;
+    text-align: left;
+    transition: .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+    width: max-content;
+    word-break: normal;
+    word-spacing: normal;
+}
+
+.button-67:hover {
+    background: #f8f8ff;
+    color: black;
+    box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
+}
+
+
+.profile {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.leftside {
+    width: 40%;
+}
+
+.profile_logo {
+    border-radius: 50%;
+    width: 80%;
+}
+
+
+/* 
+@media (min-width: 768px) {
+   
+} */
+
+@media screen and ( min-width: 1200px) {}
+
+@media screen and ( max-width: 1199px) and (min-width: 993px) {}
+
+@media screen and ( max-width: 992px) and (min-width: 769px) {
+    .button-67 {
+        padding: 24px;
+    }
+}
+
+@media screen and ( max-width: 768px) {}
+
+/* carousel အတွက် အစ*/
+
+.covergp{
+    z-index:-1;
+    width:99%;
+    padding:0.5rem;
+    background-color: #f6f7c0;
+}
+.covergp img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.contentdetail{
+    width: 50%;
+    padding:0.5rem;
+
+}
+/* carousel အတွက် အဆုံး */
+
+
+ /* teacher profile အတွက် အစ  */
+ .teacherprofilegp{
+    display: flex;
+    width: 100%;
+ }
+ .leftpart{
+    width:10%;
+    padding:20px;
+    margin-left: 4%;
+
+}
+
+.leftpart img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+ .rightpart{
+    background-image: url("img/Background.png");
+    width: 37%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position:relative;
+ }
+ .rightpart p{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color:#910215;
+    text-shadow: 3px 2px 2px darkorange;
+    position: absolute;
+    top:35%;
+    font-family: 'Bauhaus 93';
+ }
+ .teachercv{
+    display: flex;
+    margin:10px 0px;
+    padding:15px;
+    width: 100%;
+    position: relative;
+ }
+/*  
+ .cvright img{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+ } */
+ /*
+.cv{
+    position: absolute;
+    left: 9.8%;
+    top:24%;
+    padding:10px;
+    
+}
+.cv p{
+    margin:25px 0px;
+    font-size:1.2rem;
+    font-weight: bold;
+    color:darkblue;
+}
+.cvleft {
+    background-image: url('img/wood.png');
+    width: 65%;
+}
+.cvleft h2{
+    text-shadow: 1px 1px 1px rgb(241, 203, 9), 1px 1px 1px rgb(9, 8, 3) ,  1px 1px 1px rgb(241, 203, 9);
+    font-family: 'Kwokwi';
+    font-size: 2.4rem;
+    letter-spacing: 1.2px;
+}
+.cvright{
+    width: 35%;
+    
+} */
+.teacherPhotos{
+    width:90%;
+    margin-left: 5%;
+
+}
+.cv{
+    padding:3rem 1rem;
+    margin:5% 1rem;
+    position:absolute;
+    top:0;
+    left:0;
+    /* display:inline; */
+    display:none;    
+    box-sizing: border-box;
+    font-size:1rem;
+    font-weight: bold;
+    
+    height:92%;
+    border:none;
+    border-radius:30px;    
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;   
+    border-image: url('img/frame.png');
+    border-image-width: 15px;
+    border-image-slice: 15%;
+    box-sizing: border-box;
+    /*သူက နည်းလေ ပိုပုံပေါ်လေ ပိုလှလေ ရွေးတဲ့ပုံပေါ်လည်းမူတည်သေး*/
+    border-image-repeat: round;
+    z-index:1;
+}
+.cv::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-image: linear-gradient(to right,orange,yellow,rgb(251, 251, 251),yellow,orange);
+    top:0;
+    left: 0;
+    z-index: -1;
+    transition:all 1s;
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    -ms-transition:all 1s;
+    -o-transition:all 1s;
+}
+.cv:hover:before{
+    height: 100%;
+}
+.cv:hover{
+    color:black;
+    text-shadow: 3px 2px 5px white;
+}
+.aniPhoto{
+    animation:ani 1s 1;
+    -webkit-animation:ani 1s 1;
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+@keyframes ani {
+    0%{        
+        opacity:0;
+        background: transparent;
+        color:transparent;
+    }
+    100%{        
+        opacity:0.85;        
+      
+       
+    }
+  
+    
+}
+.photo_text{    
+    position: relative;
+}
+.cv p{
+    margin-bottom: 1.5rem;
+}
+
+.cvimage{
+    /* border:none; */
+    background-color: #eff22f;
+    border-image: url('img/frame.png');
+    border-image-width: 15px;
+    border-image-slice: 15%;
+    box-sizing: border-box;
+    /*သူက နည်းလေ ပိုပုံပေါ်လေ ပိုလှလေ ရွေးတဲ့ပုံပေါ်လည်းမူတည်သေး*/
+    border-image-repeat: round;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+  /* teacher profile အတွက် အဆုံး  */
+
+  /* modalcontainer အတွက် အစ  */
+  
+  .modalcontainer {
+    /* background-color: rgb(205, 148, 75); */
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;    
+    z-index:100;
+    background-color: transparent;
+    /* display: flex; ခဏမြင်ရအောင် flex ထားတာစrunချိန်မှာ မပေါ်ချင်ဘူး ဒါကြောင့် */
+    /* display: none; */
+    display: flex;
+    text-align: center;
+}
+
+.modal{
+    background-color: rgb(252, 185, 134);
+    width: 50%;
+    /* height: 250px; */
+    /* z-index: 100; */
+    /* z-index: inherit; */
+    min-height: 350px;
+    margin:auto 0;
+    text-align: center;
+    border: 5px groove rgb(250, 213, 219);
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    left:25%;
+    top:0;
+    display: flex;
+}
+
+#closebtn {
+    position: absolute;
+    top: -8px;
+    right: -2px;
+    font-size: 1.7rem;
+    color: darkred;
+}
+  /* modalcontainer အတွက် အဆုံး */
+
+
+  /* footer အစ */
+  footer{
+    width: 100%;
+    display: block;
+    padding:1rem 2rem;
+    border-radius: 20px;
+    background-color: rgb(255, 184, 242);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+  .footer-top{
+    display: flex;
+    width:100%;
+  }
+.footer-left{
+display: inline-block;
+width: 25%;
+padding:1rem;
+}
+.footer-center{
+    display: inline-block;
+    width: 50%;
+    padding:1rem;
+}
+.footer-right{
+    display: inline-block;
+    width: 25%;
+    padding:1rem;
+}
+.footer-bottom{
+    width:50%;
+    margin-left: 25%;
+    text-align:center;
+}
+.f_contact{
+    text-decoration: none;
+    color:gray;
+    font-weight: bold;
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+    padding:0.7rem 0rem;
+}
+.half-hr{
+    width: 50%;
+    margin:0;
+    color:gray;
+}
+footer h5{
+    color:darkblue;
+    font-weight: bold;
+}
+.footerP{
+    margin-top:10px;
+}
+.input-group{
+    width: 50%;
+    margin-left: 25%;
+    margin-top:2.3rem;
+}
+.input-group input{
+    
+    text-shadow: 1px 1px 1px rgb(251, 248, 248);
+}
+.input-group .bi-telegram{
+    font-size: 1.2rem;
+}
+.f_contact:hover{
+    color:black;
+}
+.polyGp{
+    display:flex;
+    width:90%;
+    margin-left: 5%;
+}
+.poly1{
+    width: 14%;
+    height:36.5px;
+    margin:auto;
+    background-image: url('img/poly1.png');
+}
+.fa-brands{
+    width: 90%;
+    margin:auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    padding:10px;
+    
+}
+.fa-youtube{
+    padding:10px 7px;
+}
+.i1{
+    color:white;
+    transition:1s;
+    -webkit-transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+}
+.i1:hover{
+    color:rgb(194, 239, 248);
+}
+.i2{
+    color:black; 
+    transition:1s;   
+}
+.i2:hover{
+    color:red;
+}
+.poly2{
+    width: 14%;
+    height:36.5px;
+    margin:auto;
+    background-image: url('img/poly2.png');
+}
+  /* footer အဆုံး */
+
+  
+.nav-item .cart{
+    /* margin-top:5px; */
+    /* margin-bottom: 5px; */
+    margin-left:10px;
+    font-size: 1.5rem;
+    color:rgb(78, 2, 46);      
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    display: flex;
+    
+}
+.countDiv{
+    margin-bottom: 25px;
+    margin-left:10px;
+    position :relative;    
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:30px;
+    height: 30px;    
+    border:1px solid rgb(78, 2, 46);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+
+}
+.count{
+    position: absolute;
+    top:-15%;
+    left: 25%;   
+    /* display:flex; */
+    display:none;
+    
+    
+}
+/* teacher biography အစ */
+#carouselExampleSlidesOnly{
+    width:50%;
+    margin-left: 25%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.carouseltext{    
+    color:darkblue;
+    text-shadow: 2px 2px 4px black;
+}
+/* 
+.carouseltext::before{
+    content:'2000 Batch YUFL ကျောင်းသူဘဝ';
+    font-size: 60%;
+    animation:anitext 8s infinite;
+    -webkit-animation:anitext 0.25s infinite;
+/* } */
+@keyframes anitext{
+    0%{
+        font-size: 60%;
+        opacity:1;
+    }
+    25%{
+        font-size: 57%;
+        opacity:0;
+    }
+    50%{
+        font-size: 60%;
+        opacity:1;
+    }
+    65%{
+        font-size: 57%;
+        opacity:0;
+    }
+    80%{
+        font-size: 60%;
+        opacity:1;
+        content:'Next 1 ';
+    }
+    90%{
+        font-size: 57%;
+        opacity:0;
+    }
+    100%{
+        font-size:60%;
+        opacity: 1;
+        content:'Next 2';
+    }
+} 
+/* teacher biography အဆုံး */
